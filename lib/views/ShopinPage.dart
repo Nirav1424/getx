@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx/Controller/navigationController.dart';
 import '../Controller/CardController.dart';
 import '../Models/Product.dart';
 import 'AddItem.dart';
@@ -45,8 +46,9 @@ class ShopingPage extends StatelessWidget {
             //         border: OutlineInputBorder(),
             //       ),
             //       onChanged: (String value) {
-            //         print(value);
-            //         // setState(() {});
+            //         // nevigationController.searchFiler(value);
+            //         // nevigationController.search.length;
+            //         // print(nevigationController.search.length);
             //       }),
             // ),
             Expanded(

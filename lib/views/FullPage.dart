@@ -1,17 +1,17 @@
-// ignore_for_file: unnecessary_string_interpolations, prefer_const_literals_to_create_immutables, prefer_const_constructors, sort_child_properties_last
+// ignore_for_file: unnecessary_string_interpolations, prefer_const_literals_to_create_immutables, prefer_const_constructors, sort_child_properties_last, prefer_typing_uninitialized_variables
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../Controller/CardController.dart';
 import '../Models/Product.dart';
 import 'AddItem.dart';
 import 'FavouritePage.dart';
-// import 'package:badges/badges.dart';
+
 
 class FullPage extends StatelessWidget {
   FullPage({super.key, required this.index});
-  // ignore: prefer_typing_uninitialized_variables
+
   final CardController cardController = Get.find();
-  // ignore: prefer_typing_uninitialized_variables
+
   final index;
   @override
   Widget build(BuildContext context) {

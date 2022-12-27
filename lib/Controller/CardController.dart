@@ -59,10 +59,19 @@ class CardController extends GetxController {
 // backgroundColor: Colors.transparent,
       // backgroundColor: Colors.green,
       colorText: Colors.green,
-      icon: Icon(Icons.add_shopping_cart_rounded,color: Colors.green,),
+      icon: Icon(
+        Icons.add_shopping_cart_rounded,
+        color: Colors.green,
+      ),
       duration: Duration(seconds: 1),
     );
   }
+
+//   List<String> search = [];
+// final  searchs = Product.where
+//   List<String> item = ['nirav', 'nikunj', 'lala', 'j', 'aniket'];
+// List<String> searchn =[];
+//    searchn = item.where((element) => element.contains('a'));
 
   void removeProduct(Product product) {
     _product.remove(product);

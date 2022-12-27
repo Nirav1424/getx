@@ -20,78 +20,67 @@ class Product {
   final quantity = 1.obs;
 
   static List<Product> products = [
-     Product(
+    Product(
         id: 1,
         ProductName: 'Oranges',
-        ProductImage:
-            'assets/orange.jpg',
+        ProductImage: 'assets/orange.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 70),
     Product(
         id: 2,
         ProductName: 'Apples',
-        ProductImage:
-            'assets/apple.jpg',
+        ProductImage: 'assets/apple.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 50),
     Product(
         id: 3,
         ProductName: 'pominGranet',
-        ProductImage:
-            'assets/pominGranet.jpg',
+        ProductImage: 'assets/pominGranet.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 90),
     Product(
         id: 4,
         ProductName: 'Graps',
-        ProductImage:
-            'assets/Graps.jpg',
+        ProductImage: 'assets/Graps.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 30),
     Product(
         id: 5,
         ProductName: 'Watermalan',
-        ProductImage:
-            'assets/Watermalan.jpg',
+        ProductImage: 'assets/Watermalan.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 80),
     Product(
         id: 6,
         ProductName: 'banana',
-        ProductImage:
-            'assets/banana.jpg',
+        ProductImage: 'assets/banana.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 40),
     Product(
         id: 7,
         ProductName: 'Kivi',
-        ProductImage:
-            'assets/kivi.jpg',
+        ProductImage: 'assets/kivi.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 80),
     Product(
         id: 8,
         ProductName: 'Mango',
-        ProductImage:
-            'assets/Mango.jpg',
+        ProductImage: 'assets/Mango.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 150),
-         Product(
+    Product(
         id: 9,
         ProductName: 'stoberi',
         ProductImage: 'assets/stoberi.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 40),
-         Product(
+    Product(
         id: 10,
         ProductName: 'naspati',
         ProductImage: 'assets/naspati.jpg',
         ProductDescription: 'hey is product is frist',
         Price: 90),
   ];
-
-  
+ 
 
 }
-
-

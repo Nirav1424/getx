@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:getx/views/ShopinPage.dart';
 
+
+
 void main() {
-  runApp( const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+   MyApp({super.key});
+
 
   // This widget is the root of your application.
   @override
@@ -16,11 +20,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
-       iconTheme: const IconThemeData(
+          primarySwatch: Colors.pink,
+          iconTheme: const IconThemeData(
             color: Colors.pink,
-          )
-      ),
+          )),
       home: ShopingPage(),
     );
   }
